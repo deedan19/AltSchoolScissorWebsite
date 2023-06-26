@@ -30,3 +30,28 @@ nav{
     /* display: flex; */
     /* border: 2px solid purple; */
 }
+
+
+.logo-image{
+    width: 6.5em;
+    float: left;
+    /* border: 1px dashed green; */
+   /* margin: auto .25em; */
+  
+}
+
+nav ul  .list-menu{
+    margin:.75em 1.0em;
+    color: #1e266d;
+    font-weight: 600;
+}
+
+nav ul{
+    margin-left: 220px;
+    /* background-color: darkorchid; */
+}
+
+li{
+    display: inline-block;
+    list-style-type: none;
+}
