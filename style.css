@@ -101,7 +101,7 @@ li{
 }
 
 .main-home-title {
-    margin-top: 8rem;
+    margin-top: 6rem;
 }
 
 .text1 {
@@ -160,5 +160,56 @@ div .colored-title {
 
    /* float: right; */
 }
+
+.link-image-container {
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    
+}
+
+.link-image-container .link {
+    height: 170px;
+    width: 50%;
+    border: 0.5px solid;
+    border-color: var(--primary-color);
+    background-color: #FEFEFE;
+    border-radius: 10px;
+    /* display: flex;
+    justify-content: center; */
+}
+
+.link-image-container .link .image-link {
+    width: 100%;
+    height: 70px;
+    padding-top: 1em;
+}
+
+.link-image-container .link .image-link img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.link-image-container .link .link-text {
+    padding: 10px 0px;
+    text-align: center;
+}
+
+.elip {
+    width: 100%;
+    height: 50px;
+    margin-top: 1em;
+}
+
+.elip img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
 
 
